@@ -1,0 +1,714 @@
+{
+  "PackageDeclaration" : {
+    "IdentifierList" : [ "codit", "ast", "pojos", "packages" ]
+  },
+  "ImportDeclarationList" : [ {
+    "TypeName" : {
+      "identifier" : "JsonProperty",
+      "prev" : {
+        "identifier" : "annotation",
+        "prev" : {
+          "identifier" : "jackson",
+          "prev" : {
+            "identifier" : "fasterxml",
+            "prev" : {
+              "identifier" : "com"
+            }
+          }
+        }
+      }
+    }
+  }, {
+    "TypeName" : {
+      "identifier" : "ArrayList",
+      "prev" : {
+        "identifier" : "util",
+        "prev" : {
+          "identifier" : "java"
+        }
+      }
+    }
+  }, {
+    "TypeName" : {
+      "identifier" : "Collection",
+      "prev" : {
+        "identifier" : "util",
+        "prev" : {
+          "identifier" : "java"
+        }
+      }
+    }
+  }, {
+    "TypeName" : {
+      "identifier" : "List",
+      "prev" : {
+        "identifier" : "util",
+        "prev" : {
+          "identifier" : "java"
+        }
+      }
+    }
+  }, {
+    "TypeName" : {
+      "identifier" : "AstNode",
+      "prev" : {
+        "identifier" : "pojos",
+        "prev" : {
+          "identifier" : "ast",
+          "prev" : {
+            "identifier" : "codit"
+          }
+        }
+      }
+    }
+  }, {
+    "TypeName" : {
+      "identifier" : "Position",
+      "prev" : {
+        "identifier" : "pojos",
+        "prev" : {
+          "identifier" : "ast",
+          "prev" : {
+            "identifier" : "codit"
+          }
+        }
+      }
+    }
+  }, {
+    "TypeName" : {
+      "identifier" : "Range",
+      "prev" : {
+        "identifier" : "pojos",
+        "prev" : {
+          "identifier" : "ast",
+          "prev" : {
+            "identifier" : "codit"
+          }
+        }
+      }
+    }
+  }, {
+    "TypeName" : {
+      "identifier" : "Annotation",
+      "prev" : {
+        "identifier" : "annotations",
+        "prev" : {
+          "identifier" : "pojos",
+          "prev" : {
+            "identifier" : "ast",
+            "prev" : {
+              "identifier" : "codit"
+            }
+          }
+        }
+      }
+    }
+  } ],
+  "TypeDeclarationList" : [ {
+    "Modifiers" : 1,
+    "Identifier" : "PackageDeclaration",
+    "SuperClass" : {
+      "Identifier" : "AstNode"
+    },
+    "ClassBodyDeclarationList" : [ {
+      "ClassMemberDeclaration" : {
+        "Modifiers" : 18,
+        "UnannType" : {
+          "UnannUnitClassOrInterfaceType" : {
+            "Identifier" : "List",
+            "TypeArgumentList" : [ {
+              "Arguable" : {
+                "UnitClassOrInterfaceType" : {
+                  "Identifier" : "Annotation"
+                },
+                "isInterface" : false
+              }
+            } ]
+          },
+          "isInterface" : false
+        },
+        "VariableDeclaratorList" : [ {
+          "VariableDeclaratorId" : {
+            "Identifier" : "annotationList"
+          }
+        } ]
+      }
+    }, {
+      "ClassMemberDeclaration" : {
+        "Modifiers" : 18,
+        "UnannType" : {
+          "UnannUnitClassOrInterfaceType" : {
+            "Identifier" : "List",
+            "TypeArgumentList" : [ {
+              "Arguable" : {
+                "UnitClassOrInterfaceType" : {
+                  "Identifier" : "String"
+                },
+                "isInterface" : false
+              }
+            } ]
+          },
+          "isInterface" : false
+        },
+        "VariableDeclaratorList" : [ {
+          "VariableDeclaratorId" : {
+            "Identifier" : "identifierList"
+          }
+        } ]
+      }
+    }, {
+      "Modifiers" : 1,
+      "ConstructorDeclarator" : {
+        "Identifier" : "PackageDeclaration",
+        "FormalParameterList" : {
+          "ParameterList" : [ {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "Range"
+              },
+              "isInterface" : false
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "range"
+            }
+          }, {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "AstNode"
+              },
+              "isInterface" : false
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "parent"
+            }
+          }, {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "Collection",
+                "TypeArgumentList" : [ {
+                  "Arguable" : {
+                    "UnitClassOrInterfaceType" : {
+                      "Identifier" : "Annotation"
+                    },
+                    "isInterface" : false
+                  }
+                } ]
+              },
+              "isInterface" : false
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "annotationList"
+            }
+          } ],
+          "LastFormalParameter" : {
+            "FormalParameter" : {
+              "Modifiers" : 0,
+              "UnannType" : {
+                "UnannUnitClassOrInterfaceType" : {
+                  "Identifier" : "Collection",
+                  "TypeArgumentList" : [ {
+                    "Arguable" : {
+                      "UnitClassOrInterfaceType" : {
+                        "Identifier" : "String"
+                      },
+                      "isInterface" : false
+                    }
+                  } ]
+                },
+                "isInterface" : false
+              },
+              "VariableDeclaratorId" : {
+                "Identifier" : "identifierList"
+              }
+            }
+          }
+        }
+      },
+      "ConstructorBody" : {
+        "ExplicitConstructorInvocation" : {
+          "ArgumentList" : [ {
+            "ExpressionName" : {
+              "identifier" : "range"
+            }
+          }, {
+            "ExpressionName" : {
+              "identifier" : "parent"
+            }
+          } ]
+        },
+        "BlockStatements" : {
+          "BlockStatementList" : [ {
+            "StatementExpression" : {
+              "LeftHandSide" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : { }
+                },
+                "Identifier" : "annotationList"
+              },
+              "AssignmentOperator" : "=",
+              "Expression" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : {
+                    "AnnotationListList" : [ [ ] ],
+                    "IdentifierList" : [ "newArrayList<>(annotationList)" ],
+                    "TypeArgumentsOrDiamond" : { },
+                    "ArgumentList" : [ {
+                      "ExpressionName" : {
+                        "identifier" : "annotationList"
+                      }
+                    } ]
+                  }
+                }
+              }
+            }
+          }, {
+            "StatementExpression" : {
+              "LeftHandSide" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : { }
+                },
+                "Identifier" : "identifierList"
+              },
+              "AssignmentOperator" : "=",
+              "Expression" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : {
+                    "AnnotationListList" : [ [ ] ],
+                    "IdentifierList" : [ "newArrayList<>(identifierList)" ],
+                    "TypeArgumentsOrDiamond" : { },
+                    "ArgumentList" : [ {
+                      "ExpressionName" : {
+                        "identifier" : "identifierList"
+                      }
+                    } ]
+                  }
+                }
+              }
+            }
+          } ]
+        }
+      }
+    }, {
+      "Modifiers" : 1,
+      "ConstructorDeclarator" : {
+        "Identifier" : "PackageDeclaration",
+        "FormalParameterList" : {
+          "ParameterList" : [ {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "Position"
+              },
+              "isInterface" : false
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "start"
+            }
+          }, {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "Position"
+              },
+              "isInterface" : false
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "end"
+            }
+          }, {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "AstNode"
+              },
+              "isInterface" : false
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "parent"
+            }
+          }, {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "Collection",
+                "TypeArgumentList" : [ {
+                  "Arguable" : {
+                    "UnitClassOrInterfaceType" : {
+                      "Identifier" : "Annotation"
+                    },
+                    "isInterface" : false
+                  }
+                } ]
+              },
+              "isInterface" : false
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "annotationList"
+            }
+          } ],
+          "LastFormalParameter" : {
+            "FormalParameter" : {
+              "Modifiers" : 0,
+              "UnannType" : {
+                "UnannUnitClassOrInterfaceType" : {
+                  "Identifier" : "Collection",
+                  "TypeArgumentList" : [ {
+                    "Arguable" : {
+                      "UnitClassOrInterfaceType" : {
+                        "Identifier" : "String"
+                      },
+                      "isInterface" : false
+                    }
+                  } ]
+                },
+                "isInterface" : false
+              },
+              "VariableDeclaratorId" : {
+                "Identifier" : "identifierList"
+              }
+            }
+          }
+        }
+      },
+      "ConstructorBody" : {
+        "ExplicitConstructorInvocation" : {
+          "ArgumentList" : [ {
+            "ExpressionName" : {
+              "identifier" : "start"
+            }
+          }, {
+            "ExpressionName" : {
+              "identifier" : "end"
+            }
+          }, {
+            "ExpressionName" : {
+              "identifier" : "parent"
+            }
+          } ]
+        },
+        "BlockStatements" : {
+          "BlockStatementList" : [ {
+            "StatementExpression" : {
+              "LeftHandSide" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : { }
+                },
+                "Identifier" : "annotationList"
+              },
+              "AssignmentOperator" : "=",
+              "Expression" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : {
+                    "AnnotationListList" : [ [ ] ],
+                    "IdentifierList" : [ "newArrayList<>(annotationList)" ],
+                    "TypeArgumentsOrDiamond" : { },
+                    "ArgumentList" : [ {
+                      "ExpressionName" : {
+                        "identifier" : "annotationList"
+                      }
+                    } ]
+                  }
+                }
+              }
+            }
+          }, {
+            "StatementExpression" : {
+              "LeftHandSide" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : { }
+                },
+                "Identifier" : "identifierList"
+              },
+              "AssignmentOperator" : "=",
+              "Expression" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : {
+                    "AnnotationListList" : [ [ ] ],
+                    "IdentifierList" : [ "newArrayList<>(identifierList)" ],
+                    "TypeArgumentsOrDiamond" : { },
+                    "ArgumentList" : [ {
+                      "ExpressionName" : {
+                        "identifier" : "identifierList"
+                      }
+                    } ]
+                  }
+                }
+              }
+            }
+          } ]
+        }
+      }
+    }, {
+      "Modifiers" : 1,
+      "ConstructorDeclarator" : {
+        "Identifier" : "PackageDeclaration",
+        "FormalParameterList" : {
+          "ParameterList" : [ {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "Primitive" : "INT"
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "startLine"
+            }
+          }, {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "Primitive" : "INT"
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "startCol"
+            }
+          }, {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "Primitive" : "INT"
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "endLine"
+            }
+          }, {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "Primitive" : "INT"
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "endCol"
+            }
+          }, {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "AstNode"
+              },
+              "isInterface" : false
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "parent"
+            }
+          }, {
+            "Modifiers" : 0,
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "Collection",
+                "TypeArgumentList" : [ {
+                  "Arguable" : {
+                    "UnitClassOrInterfaceType" : {
+                      "Identifier" : "Annotation"
+                    },
+                    "isInterface" : false
+                  }
+                } ]
+              },
+              "isInterface" : false
+            },
+            "VariableDeclaratorId" : {
+              "Identifier" : "annotationList"
+            }
+          } ],
+          "LastFormalParameter" : {
+            "FormalParameter" : {
+              "Modifiers" : 0,
+              "UnannType" : {
+                "UnannUnitClassOrInterfaceType" : {
+                  "Identifier" : "Collection",
+                  "TypeArgumentList" : [ {
+                    "Arguable" : {
+                      "UnitClassOrInterfaceType" : {
+                        "Identifier" : "String"
+                      },
+                      "isInterface" : false
+                    }
+                  } ]
+                },
+                "isInterface" : false
+              },
+              "VariableDeclaratorId" : {
+                "Identifier" : "identifierList"
+              }
+            }
+          }
+        }
+      },
+      "ConstructorBody" : {
+        "ExplicitConstructorInvocation" : {
+          "ArgumentList" : [ {
+            "ExpressionName" : {
+              "identifier" : "startLine"
+            }
+          }, {
+            "ExpressionName" : {
+              "identifier" : "startCol"
+            }
+          }, {
+            "ExpressionName" : {
+              "identifier" : "endLine"
+            }
+          }, {
+            "ExpressionName" : {
+              "identifier" : "endCol"
+            }
+          }, {
+            "ExpressionName" : {
+              "identifier" : "parent"
+            }
+          } ]
+        },
+        "BlockStatements" : {
+          "BlockStatementList" : [ {
+            "StatementExpression" : {
+              "LeftHandSide" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : { }
+                },
+                "Identifier" : "annotationList"
+              },
+              "AssignmentOperator" : "=",
+              "Expression" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : {
+                    "AnnotationListList" : [ [ ] ],
+                    "IdentifierList" : [ "newArrayList<>(annotationList)" ],
+                    "TypeArgumentsOrDiamond" : { },
+                    "ArgumentList" : [ {
+                      "ExpressionName" : {
+                        "identifier" : "annotationList"
+                      }
+                    } ]
+                  }
+                }
+              }
+            }
+          }, {
+            "StatementExpression" : {
+              "LeftHandSide" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : { }
+                },
+                "Identifier" : "identifierList"
+              },
+              "AssignmentOperator" : "=",
+              "Expression" : {
+                "Primary" : {
+                  "DefaultArrayLfnoPrimary" : {
+                    "AnnotationListList" : [ [ ] ],
+                    "IdentifierList" : [ "newArrayList<>(identifierList)" ],
+                    "TypeArgumentsOrDiamond" : { },
+                    "ArgumentList" : [ {
+                      "ExpressionName" : {
+                        "identifier" : "identifierList"
+                      }
+                    } ]
+                  }
+                }
+              }
+            }
+          } ]
+        }
+      }
+    }, {
+      "ClassMemberDeclaration" : {
+        "AnnotationList" : [ {
+          "TypeName" : {
+            "identifier" : "JsonProperty"
+          },
+          "ElementValue" : {
+            "Primary" : {
+              "DefaultArrayLfnoPrimary" : {
+                "literal" : {
+                  "str" : "\"AnnotationList\""
+                }
+              }
+            }
+          }
+        } ],
+        "Modifiers" : 1,
+        "MethodHeader" : {
+          "Result" : {
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "List",
+                "TypeArgumentList" : [ {
+                  "Arguable" : {
+                    "UnitClassOrInterfaceType" : {
+                      "Identifier" : "Annotation"
+                    },
+                    "isInterface" : false
+                  }
+                } ]
+              },
+              "isInterface" : false
+            }
+          },
+          "MethodDeclarator" : {
+            "Identifier" : "getAnnotationList"
+          }
+        },
+        "Block" : {
+          "BlockStatements" : {
+            "BlockStatementList" : [ {
+              "Expression" : {
+                "ExpressionName" : {
+                  "identifier" : "annotationList"
+                }
+              }
+            } ]
+          }
+        }
+      }
+    }, {
+      "ClassMemberDeclaration" : {
+        "AnnotationList" : [ {
+          "TypeName" : {
+            "identifier" : "JsonProperty"
+          },
+          "ElementValue" : {
+            "Primary" : {
+              "DefaultArrayLfnoPrimary" : {
+                "literal" : {
+                  "str" : "\"IdentifierList\""
+                }
+              }
+            }
+          }
+        } ],
+        "Modifiers" : 1,
+        "MethodHeader" : {
+          "Result" : {
+            "UnannType" : {
+              "UnannUnitClassOrInterfaceType" : {
+                "Identifier" : "List",
+                "TypeArgumentList" : [ {
+                  "Arguable" : {
+                    "UnitClassOrInterfaceType" : {
+                      "Identifier" : "String"
+                    },
+                    "isInterface" : false
+                  }
+                } ]
+              },
+              "isInterface" : false
+            }
+          },
+          "MethodDeclarator" : {
+            "Identifier" : "getIdentifierList"
+          }
+        },
+        "Block" : {
+          "BlockStatements" : {
+            "BlockStatementList" : [ {
+              "Expression" : {
+                "ExpressionName" : {
+                  "identifier" : "identifierList"
+                }
+              }
+            } ]
+          }
+        }
+      }
+    } ]
+  } ]
+}
