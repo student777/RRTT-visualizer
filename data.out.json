@@ -1,0 +1,926 @@
+{
+ "name": "root",
+ "level": 0,
+ "children": [
+  {
+   "name": "codit",
+   "level": 1,
+   "children": [
+    {
+     "name": "ast",
+     "level": 2,
+     "children": [
+      {
+       "name": "pojos",
+       "level": 3,
+       "children": [
+        {
+         "name": "JsonProperty",
+         "level": 4,
+         "children": [
+          {
+           "name": "annotation",
+           "level": 5,
+           "children": [
+            {
+             "name": "jackson",
+             "level": 6,
+             "children": [
+              {
+               "name": "fasterxml",
+               "level": 7,
+               "children": [
+                {
+                 "name": "com",
+                 "level": 8
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "ArrayList",
+         "level": 4,
+         "children": [
+          {
+           "name": "util",
+           "level": 5,
+           "children": [
+            {
+             "name": "java",
+             "level": 6
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Collection",
+         "level": 4,
+         "children": [
+          {
+           "name": "util",
+           "level": 5,
+           "children": [
+            {
+             "name": "java",
+             "level": 6
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "List",
+         "level": 4,
+         "children": [
+          {
+           "name": "util",
+           "level": 5,
+           "children": [
+            {
+             "name": "java",
+             "level": 6
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "AstNode",
+         "level": 4,
+         "children": [
+          {
+           "name": "pojos",
+           "level": 5,
+           "children": [
+            {
+             "name": "ast",
+             "level": 6,
+             "children": [
+              {
+               "name": "codit",
+               "level": 7
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Position",
+         "level": 4,
+         "children": [
+          {
+           "name": "pojos",
+           "level": 5,
+           "children": [
+            {
+             "name": "ast",
+             "level": 6,
+             "children": [
+              {
+               "name": "codit",
+               "level": 7
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Range",
+         "level": 4,
+         "children": [
+          {
+           "name": "pojos",
+           "level": 5,
+           "children": [
+            {
+             "name": "ast",
+             "level": 6,
+             "children": [
+              {
+               "name": "codit",
+               "level": 7
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "name": "Annotation",
+         "level": 4,
+         "children": [
+          {
+           "name": "annotations",
+           "level": 5,
+           "children": [
+            {
+             "name": "pojos",
+             "level": 6,
+             "children": [
+              {
+               "name": "ast",
+               "level": 7,
+               "children": [
+                {
+                 "name": "codit",
+                 "level": 8
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "packages",
+       "level": 3
+      },
+      {
+       "name": 1,
+       "level": 3,
+       "children": [
+        {
+         "name": "AstNode",
+         "level": 4,
+         "children": [
+          {
+           "name": 18,
+           "level": 5,
+           "children": [
+            {
+             "name": "List",
+             "level": 6,
+             "children": [
+              {
+               "name": "Annotation",
+               "level": 7,
+               "children": [
+                {
+                 "name": false,
+                 "level": 8
+                }
+               ]
+              },
+              {
+               "name": false,
+               "level": 7,
+               "children": [
+                {
+                 "name": "annotationList",
+                 "level": 8
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": 18,
+             "level": 6,
+             "children": [
+              {
+               "name": "List",
+               "level": 7,
+               "children": [
+                {
+                 "name": "String",
+                 "level": 8,
+                 "children": [
+                  {
+                   "name": false,
+                   "level": 9
+                  }
+                 ]
+                }
+               ]
+              },
+              {
+               "name": false,
+               "level": 7,
+               "children": [
+                {
+                 "name": "identifierList",
+                 "level": 8
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": 1,
+           "level": 5,
+           "children": [
+            {
+             "name": "PackageDeclaration",
+             "level": 6,
+             "children": [
+              {
+               "name": 0,
+               "level": 7,
+               "children": [
+                {
+                 "name": "Range",
+                 "level": 8,
+                 "children": [
+                  {
+                   "name": false,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "range",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "AstNode",
+                     "level": 10
+                    },
+                    {
+                     "name": false,
+                     "level": 10
+                    },
+                    {
+                     "name": "parent",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "Collection",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "Annotation",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": false,
+                         "level": 12
+                        }
+                       ]
+                      }
+                     ]
+                    },
+                    {
+                     "name": false,
+                     "level": 10
+                    },
+                    {
+                     "name": "annotationList",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "Collection",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "String",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": false,
+                         "level": 12
+                        }
+                       ]
+                      }
+                     ]
+                    },
+                    {
+                     "name": false,
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "annotationList",
+                       "level": 11
+                      }
+                     ]
+                    },
+                    {
+                     "name": "identifierList",
+                     "level": 10
+                    },
+                    {
+                     "name": "range",
+                     "level": 10
+                    },
+                    {
+                     "name": "parent",
+                     "level": 10
+                    },
+                    {
+                     "name": "=",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "newArrayList<>(annotationList)",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": "annotationList",
+                         "level": 12
+                        }
+                       ]
+                      },
+                      {
+                       "name": "identifierList",
+                       "level": 11
+                      }
+                     ]
+                    },
+                    {
+                     "name": "=",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "newArrayList<>(identifierList)",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": "identifierList",
+                         "level": 12
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": 1,
+           "level": 5,
+           "children": [
+            {
+             "name": "PackageDeclaration",
+             "level": 6,
+             "children": [
+              {
+               "name": 0,
+               "level": 7,
+               "children": [
+                {
+                 "name": "Position",
+                 "level": 8,
+                 "children": [
+                  {
+                   "name": false,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "start",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "Position",
+                     "level": 10
+                    },
+                    {
+                     "name": false,
+                     "level": 10
+                    },
+                    {
+                     "name": "end",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "AstNode",
+                     "level": 10
+                    },
+                    {
+                     "name": false,
+                     "level": 10
+                    },
+                    {
+                     "name": "parent",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "Collection",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "Annotation",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": false,
+                         "level": 12
+                        }
+                       ]
+                      }
+                     ]
+                    },
+                    {
+                     "name": false,
+                     "level": 10
+                    },
+                    {
+                     "name": "annotationList",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "Collection",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "String",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": false,
+                         "level": 12
+                        }
+                       ]
+                      }
+                     ]
+                    },
+                    {
+                     "name": false,
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "annotationList",
+                       "level": 11
+                      }
+                     ]
+                    },
+                    {
+                     "name": "identifierList",
+                     "level": 10
+                    },
+                    {
+                     "name": "start",
+                     "level": 10
+                    },
+                    {
+                     "name": "end",
+                     "level": 10
+                    },
+                    {
+                     "name": "parent",
+                     "level": 10
+                    },
+                    {
+                     "name": "=",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "newArrayList<>(annotationList)",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": "annotationList",
+                         "level": 12
+                        }
+                       ]
+                      },
+                      {
+                       "name": "identifierList",
+                       "level": 11
+                      }
+                     ]
+                    },
+                    {
+                     "name": "=",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "newArrayList<>(identifierList)",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": "identifierList",
+                         "level": 12
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          },
+          {
+           "name": 1,
+           "level": 5,
+           "children": [
+            {
+             "name": "PackageDeclaration",
+             "level": 6,
+             "children": [
+              {
+               "name": 0,
+               "level": 7,
+               "children": [
+                {
+                 "name": "INT",
+                 "level": 8,
+                 "children": [
+                  {
+                   "name": "startLine",
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "INT",
+                     "level": 10
+                    },
+                    {
+                     "name": "startCol",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "INT",
+                     "level": 10
+                    },
+                    {
+                     "name": "endLine",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "INT",
+                     "level": 10
+                    },
+                    {
+                     "name": "endCol",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "AstNode",
+                     "level": 10
+                    },
+                    {
+                     "name": false,
+                     "level": 10
+                    },
+                    {
+                     "name": "parent",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "Collection",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "Annotation",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": false,
+                         "level": 12
+                        }
+                       ]
+                      }
+                     ]
+                    },
+                    {
+                     "name": false,
+                     "level": 10
+                    },
+                    {
+                     "name": "annotationList",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": 0,
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "Collection",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "String",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": false,
+                         "level": 12
+                        }
+                       ]
+                      }
+                     ]
+                    },
+                    {
+                     "name": false,
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "annotationList",
+                       "level": 11
+                      }
+                     ]
+                    },
+                    {
+                     "name": "identifierList",
+                     "level": 10
+                    },
+                    {
+                     "name": "startLine",
+                     "level": 10
+                    },
+                    {
+                     "name": "startCol",
+                     "level": 10
+                    },
+                    {
+                     "name": "endLine",
+                     "level": 10
+                    },
+                    {
+                     "name": "endCol",
+                     "level": 10
+                    },
+                    {
+                     "name": "parent",
+                     "level": 10
+                    },
+                    {
+                     "name": "=",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "newArrayList<>(annotationList)",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": "annotationList",
+                         "level": 12
+                        }
+                       ]
+                      },
+                      {
+                       "name": "identifierList",
+                       "level": 11
+                      }
+                     ]
+                    },
+                    {
+                     "name": "=",
+                     "level": 10,
+                     "children": [
+                      {
+                       "name": "newArrayList<>(identifierList)",
+                       "level": 11,
+                       "children": [
+                        {
+                         "name": "identifierList",
+                         "level": 12
+                        }
+                       ]
+                      }
+                     ]
+                    }
+                   ]
+                  },
+                  {
+                   "name": "JsonProperty",
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "\"AnnotationList\"",
+                     "level": 10
+                    }
+                   ]
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": 1,
+             "level": 6,
+             "children": [
+              {
+               "name": "List",
+               "level": 7,
+               "children": [
+                {
+                 "name": "Annotation",
+                 "level": 8,
+                 "children": [
+                  {
+                   "name": false,
+                   "level": 9
+                  },
+                  {
+                   "name": false,
+                   "level": 9
+                  }
+                 ]
+                },
+                {
+                 "name": "getAnnotationList",
+                 "level": 8,
+                 "children": [
+                  {
+                   "name": "annotationList",
+                   "level": 9,
+                   "children": [
+                    {
+                     "name": "\"IdentifierList\"",
+                     "level": 10
+                    }
+                   ]
+                  },
+                  {
+                   "name": "JsonProperty",
+                   "level": 9
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            },
+            {
+             "name": 1,
+             "level": 6,
+             "children": [
+              {
+               "name": "List",
+               "level": 7,
+               "children": [
+                {
+                 "name": "String",
+                 "level": 8,
+                 "children": [
+                  {
+                   "name": false,
+                   "level": 9
+                  },
+                  {
+                   "name": false,
+                   "level": 9
+                  }
+                 ]
+                },
+                {
+                 "name": "getIdentifierList",
+                 "level": 8,
+                 "children": [
+                  {
+                   "name": "identifierList",
+                   "level": 9
+                  }
+                 ]
+                }
+               ]
+              }
+             ]
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "name": "PackageDeclaration",
+       "level": 3
+      }
+     ]
+    }
+   ]
+  }
+ ]
+}
