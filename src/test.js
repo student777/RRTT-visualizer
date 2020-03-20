@@ -1,11 +1,11 @@
 const fs = require('fs');
 
-var data = require('./data.json');
+var data = require('../test/codit/data.json');
 var itemList = [];
 traverse(data, 0);
 prettify(itemList);
 var tree = listToTree(itemList);
-fs.writeFileSync('data.out.json', JSON.stringify(tree[0], null, 1))
+fs.writeFileSync('../out/data.out.json', JSON.stringify(tree[0], null, 1))
 
 
 
